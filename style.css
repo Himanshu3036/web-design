@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background:url(https://st2.depositphotos.com/1177973/10821/i/950/depositphotos_108214204-stock-photo-freshly-homemade-pizza.jpg) no-repeat center center/cover ;
+    
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    margin: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    color: cornsilk;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 2px;
+
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: lightgray;
+    position: absolute;  
+    height: 15%;
+    width: 100%;
+     z-index: -2; 
+    opacity: 0.5;  
+}
+
+#logo{
+    margin: 54px 23px;
+
+}
+
+#logo img{
+    height: 70px;
+    margin: 1px 2px;
+}
+#navbar ul{
+    display: flex;
+    /* background-color: darkgoldenrod; */
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 25px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+#search1{
+    color:white;
+    margin-top: 3px;
+    margin-left: 473px;
+     padding:7px;
+    border-radius:12px;
+}
+#search{
+    padding: 6px;
+    border-radius:10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 96px 119px;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    
+}
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+#btn{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 7px 9px;
+    color: black;
+    border: 2px solid darkgoldenrod;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+
+.center h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#boxs{
+    font-size: large;
+    display: flex;
+    
+}
+#boxs img{
+    height:212px;
+    width: 286px;
+    padding: 12px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    margin: 5px;
+    background-color:white;
+
+}
+.foodSer{
+    margin-left: 119px;
+}
+
+.fd_items{
+    margin-top: 0px;
+}
+.box{
+    font-size: large;
+    display: flex;
+    
+}
+
+.box img{
+    height:212px;
+    width: 286px;
+    padding: 12px;
+    margin: 5px;
+    background-color: white;
+
+}
+
+.food_items{
+    margin-left: 130px;
+}
+
+
+#client_section{
+    position: relative;
+     height: 411px; 
+     width: 1349px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkzwD8vES0GsQvnIXg5ocRgkgkb6nOsWxtvQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#clients{
+    display: flex;
+    
+
+}
+.client_items{
+    margin-top: 50px;
+}
+#mdh{
+    margin: 10px;
+    margin-left: 98px;
+    margin-top: 85px;
+    
+}
+#domino{
+    height: 50px;
+    margin-left: 85px;
+}
+#bikaji{
+    margin-top: 90px;
+     margin-left: 65px; 
+    height: 100px;
+    width: 100px;
+}
+#contact{
+    
+    height: auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoO-v0McHEGQu1oank3iHSh04MpFMm4RaQTg&usqp=CAU);
+     position: relative;
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: 100% auto;
+}
+.h_contact{
+    text-align: center;
+}
+.form_grp{
+    font-size: 25px;
+    color: black;
+}
+.entrybox{
+    padding: 5px;
+    border-radius: 30px;
+    margin: 5px;
+
+}
+#message{
+    padding: 30px;
+    border-radius: 10px;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;}
+
+#btn2{
+        padding: 8px 28px;
+        margin: 10px;
+        background-color: skyblue;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid skyblue;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+.footer{
+    background-color: cadetblue;
+    padding: 14px;
+    margin: 0%;
+
+}
+
